@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <style>
+        body {
+            height: 100vh;
+        }
+        img:hover {
+            transform: scale(1.5);
+        }
+        .ativo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <img class="imagem-dimensionar" src="https://m.media-amazon.com/images/I/61Jcjv4mPvS.__AC_SY395_SX395_QL70_ML2_.jpg"
+            alt="imagem de sapato" onClick="clicou()" />
+
+    <script>
+        function clicou() {
+            // alert('tah funcionando!');
+            document.querySelector('body').classList.add("ativo");
+        }
+    </script>
+
+</body>
+</html>

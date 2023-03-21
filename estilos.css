@@ -1,0 +1,45 @@
+body {
+    background-color: aquamarine;
+    color: darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid brown;
+    height: 100vh;
+}
+
+#secao-estoque {
+    border: 2px dotted blue;
+    padding-left: 40px;
+}
+
+.paragrafo-exemplo {
+    border: 2px dotted violet;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.container-flex {
+    margin: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div1, #div2, #div3 {
+    width: 200px;
+    height: 100px;
+}
+
+#div1 {
+    background-color: chocolate;    
+}
+
+#div2 {
+    background-color: darkgreen;
+}
+
+#div3 {
+    background-color: deeppink;
+}
